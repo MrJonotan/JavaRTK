@@ -1,3 +1,5 @@
+package Homework3;
+
 import java.util.Random;
 
 public class Game {
@@ -10,8 +12,7 @@ public class Game {
         System.out.println("Peter: " + selectPeter + " vs " + "Vasily: " + selectVasiliy );
         if(vasily == peter){
             System.out.println("Draw");
-        }
-        if((vasily == 0 && peter == 1) || (vasily == 1 && peter == 2) || (vasily == 2 && peter == 0)){
+        }else if((vasily == 0 && peter == 1) || (vasily == 1 && peter == 2) || (vasily == 2 && peter == 0)){
             System.out.println("Vasily win!");
         }else{
             System.out.println("Peter win!");
