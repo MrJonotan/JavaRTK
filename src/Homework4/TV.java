@@ -1,7 +1,6 @@
 package Homework4;
 
 import java.util.HashMap;
-import java.util.spi.AbstractResourceBundleProvider;
 
 public class TV {
     protected String brand;
@@ -10,7 +9,7 @@ public class TV {
     protected boolean smartTV;
     public boolean powerOn;
     private int channel;
-    public int currentVolume;
+    private int currentVolume;
 
     // метод конструктора класса TV
     public TV(String brand, String model, int diagonal, boolean smartTV) {
