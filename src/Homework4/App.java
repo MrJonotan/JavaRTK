@@ -22,12 +22,12 @@ public class App {
     }
 
     private static String remoteControlFunctions(String variable, TV device){
-            return switch (variable) {
-                case "P" -> device.power();
-                case "+" -> device.changeVolume("+");
-                case "-" -> device.changeVolume("-");
-                case "s" -> TV.getInfo(device);
-                default -> device.changeChannel(variable);
-            };
+        return switch (variable) {
+            case "P" -> device.power();
+            case "+" -> device.changeVolume("+");
+            case "-" -> device.changeVolume("-");
+            case "s" -> TV.getInfo(device);
+            default -> device.changeChannel(variable);
+        };
     }
 }
