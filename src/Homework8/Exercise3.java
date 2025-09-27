@@ -21,6 +21,5 @@ public class Exercise3 {
                 "\nОбъединение: \n" + ps.union(numArray1, numArray2) +
                 "\nОтносительное дополнение: \n" + ps.relativeComplement(numArray1, numArray2)
         );
-//        System.out.println("Пересечение: \n" + "\nВторой массив: " + numArray2.toString());
     }
 }
